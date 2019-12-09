@@ -1,0 +1,213 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mela</title>
+  <link href="https://fonts.googleapis.com/css?family=Muli|Ovo&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles/styles.css">
+  <!-- Change favicon to a more fitting icon -->
+  <link rel="icon" href="images/logo-colour.png">
+</head>
+
+<body class="borderbox">
+  <!-- <img 
+    src="images/bg.png"
+    id="bg"
+  /> -->
+  
+  <!-- Navbar -->
+  <span id="openNav" onclick="openNav()">&#9776;</span>
+  <span id="closeNav" onclick="closeNav()">&times;</span>
+
+  <div id="navbar" class="borderbox">
+    <img src="images/logo-colour.png" id="logo-link" />
+    <div id="navigation">
+      <a id="about-link" href="#">Why Mela?</a>
+      <a id="product-link" href="#">Product</a>
+      <a id="contact-nav-link" class="contact-link" href="#">Get in touch</a>
+    </div>
+    <div class='secondary-links'>
+      <p>Follow us here</p>
+      <div class="social-links">
+        <a href="https://www.linkedin.com/company/melainsights/" target="_blank">
+          <img src="images/SVG/linkedin.svg" class='social' />
+        </a>
+        <a href="https://twitter.com/Mela_Insights" target="_blank">
+          <img src="images/SVG/twitter.svg" class='social' />
+        </a>
+      </div>
+    </div>
+    
+    <div id="selector"></div>
+  </div>
+
+  <!-- Content -->
+  <div id="content" class="container">
+    <div id="landing-page">
+      <img
+        class="landing-page-logo"
+        src="images/logo-colour.png"
+        alt="Mela's logo"
+      />
+      <p>"Tagline that explains the product"</p>
+      <!-- Call to Action -->
+      <button id='cta' class="contact-link">Get in Touch</button>
+    </div>
+
+    <!-- About Section -->
+    <div id="about" class="container borderbox">
+      <div class="wave"></div>
+      <div>
+        <h2>Why Mela?</h2>
+        <p>
+          Mela is a technology solution that exists to reduce the time and cost currently being invested into
+            event sourcing by large venues and maximise the time spent hosting events and bringing people together.
+          <br><br>
+          Plus more information about something or another.
+        </p>
+        <hr align="left" noshade="noshade">
+      </div>
+      <div class="img-container">
+        <img 
+        src="images/hero.png"
+        alt="Image of business people"
+        />
+      </div>
+    </div>
+
+    <!-- Product Section -->
+    <div id="product">
+      <div class="wave2"></div>
+      <h2>Product</h2>
+      <p>
+        Mela is built to find and prioritise the best events and maximise your venues calendar space.
+         We reduce the time spent manually searching and instead direct you straight to the people you need.
+      </p>
+      <hr align="left" noshade="noshade">
+      <div class="features-list">
+        <div class="feature">
+          <img
+            src="images/lead-generation.png"
+            alt="Lead Generation"
+            width="300px"
+          >
+          <div class="primary">
+            Lead Generation
+          </div>
+          <div class="secondary">
+            Search for International & National events to fill in the dates in your venues calendar.
+          </div>
+        </div>
+        <div class="feature">
+          <img
+            src="images/lead-prioritisation.png"
+            alt="Lead Prioritisation"
+            width="300px"
+          >
+          <div class="primary">
+            Lead Prioritisation
+          </div>
+          <div class="secondary">
+            Organise events by the value they will bring and filter out all events that do not match your
+              venue amenities.
+          </div>
+        </div>
+        <div class="feature">
+          <img
+            src="images/lead-nurturing.png"
+            alt="Lead Nurturing"
+            width="300px"
+          >
+          <div class="primary">
+            Lead Nurturing
+          </div>
+          <div class="secondary">
+            Track your lead progress and see insights into the event and surrounding area that can support
+              a winning bid.
+          </div>
+        </div>
+      </div>
+      <img src="images/screenshot.png" class="screenshot">
+    </div>
+
+    <!-- Contact Section -->
+    <div id="contact">
+      <div class='bg-color'></div>
+      <h2>Get in Touch</h2>
+      <p>
+        We want to get Mela out to you as soon as possible. So if you have a large venue or are an events 
+        organisation, please fill in the form below and we will be in touch.
+      </p>
+      <hr align="left" noshade="noshade">
+      <div class='form-container'>
+        <form class='borderbox'>
+          <!-- For a half input, use "section", for two in a row wrap in "row" -->
+          <div class='row'>
+            <div class="section">
+              <label>Name (*)</label>
+              <input class="borderbox" required>
+            </div>
+            <div class="job-section section">
+              <label>Job Title</label>
+              <input class="borderbox">
+            </div>
+          </div>
+          
+          <div class='row'>
+            <div class="section">
+              <label>Organisation (*)</label>
+              <input class="borderbox" required>
+            </div>
+            <div class="phone-section section">
+              <label>Phone Number</label>
+              <input class="borderbox">
+            </div>
+          </div>
+  
+          <div class="section">
+            <label>Email Address (*)</label>
+            <input class="borderbox" required>
+          </div>
+  
+          <label>Message (*)</label>
+          <textarea class="borderbox" rows="6" required></textarea>
+          <div>
+            <button>Send</button>
+          </div>
+        </form>
+        <p>Fields with (*) are required.</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <div id="footer">
+    <div id="footer-content">
+      <div class="section">
+          <p class="primary">Contact</p>
+          <p class="secondary">
+            hello@melainsight.com
+          </p>
+        </div>
+        <div class="section">
+          <p class="primary">Find Us</p>
+          <p class="secondary">
+            Alacrity House<br>
+            Kingsway<br>
+            Newport, NP20 1HG
+          </p>
+        </div>
+        <div class="section">
+          <p class="primary">Mela Insights</p>
+          <p class="secondary">@ 2019</p>
+          <p class="registration">Registered in England and Wales under company number 11939795</p>
+        </div>
+    </div>
+  </div>
+  
+<!-- Script -->
+  <script src="scripts/script.js"></script>
+</body>
+</html>
