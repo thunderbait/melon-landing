@@ -110,4 +110,3 @@ for (var i = 0; i < contactLinks.length; i++) {
     e.preventDefault();
   });
 }
-
