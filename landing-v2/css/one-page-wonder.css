@@ -134,6 +134,14 @@ header.masthead .masthead-content .masthead-subheading {
 }
 
 .btn-form {
-    background-color: #00eeff;
-    border-color: #00eeff;
+    background: #ffeded;
+    font-weight: bold;
+}
+
+.form-control {
+    background: linear-gradient(180deg, rgba(199, 199, 199, 0.74) 0%, rgb(255, 237, 237) 20%)
+}
+
+label {
+    color: white;
 }
