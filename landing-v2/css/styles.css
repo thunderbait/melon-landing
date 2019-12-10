@@ -367,7 +367,7 @@
         }
         #contact .form-container form .section {
           display: block;
-          float: center;
+          float: left;
           width: 100%;
           margin-bottom: 20px;
         }
