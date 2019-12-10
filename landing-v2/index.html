@@ -8,7 +8,7 @@
   <meta name="description" content="">
   <meta name="author" content="">
 
-  <title>One Page Wonder - Start Bootstrap Template</title>
+  <title>EVENTRIX.IO</title>
 
   <!-- Bootstrap core CSS -->
   <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -19,7 +19,7 @@
   <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
 
   <!-- Custom styles for this template -->
-  <link href="css/one-page-wonder.min.css" rel="stylesheet">
+  <link href="css/one-page-wonder.css" rel="stylesheet">
 
 </head>
 
@@ -103,24 +103,104 @@
     </div>
   </section>
 
+  <!-- Contact us -->
   <section>
-    <div class="container">
-      <form>
+    <div id="contact" class="container">
+      <form action="mailto:team24UK@alacrityfoundation.com" method="post" enctype="text/plain">
 
-        <div class="form-group">
-          <label for="full_name">Name</label> 
-          <div class="input-group">
-            <div class="input-group-prepend">
-              <div class="input-group-text">
-                <i class="fa fa-user"></i>
+        <div class="row">
+          <div class="col-6">
+
+            <div class="form-group">
+              <label for="full_name">Name</label> 
+              <div class="input-group">
+                <div class="input-group-prepend">
+                  <div class="input-group-text">
+                    <i class="fa fa-user"></i>
+                  </div>
+                </div> 
+                <input id="full_name" name="Full name " type="text" class="form-control" placeholder="Enter your name here..." required>
               </div>
-            </div> 
-            <input id="full_name" name="full_name" type="text" required="required" class="form-control">
+            </div>
+
+          </div>
+          <div class="col-6">
+
+            <div class="form-group">
+              <label for="job_title">Job Title</label> 
+              <div class="input-group">
+                <div class="input-group-prepend">
+                  <div class="input-group-text">
+                    <i class="fa fa-briefcase" aria-hidden="true"></i>
+                  </div>
+                </div> 
+                <input id="job_title" name="Job title " type="text" class="form-control" placeholder="Enter your job title here..." required>
+              </div>
+            </div>
+
           </div>
         </div>
-        
+        <div class="row">
+          <div class="col-6">
+
+            <div class="form-group">
+              <label for="organisation">Organisation</label> 
+              <div class="input-group">
+                <div class="input-group-prepend">
+                  <div class="input-group-text">
+                    <i class="fa fa-building" aria-hidden="true"></i>
+                  </div>
+                </div> 
+                <input id="organisation" name="Organisation " type="text" class="form-control" placeholder="Enter your organisation's name here..." required>
+              </div>
+            </div>
+
+          </div>
+          <div class="col-6">
+
+            <div class="form-group">
+              <label for="phone_number">Phone Number</label> 
+              <div class="input-group">
+                <div class="input-group-prepend">
+                  <div class="input-group-text">
+                    <i class="fa fa-phone" aria-hidden="true"></i>
+                  </div>
+                </div> 
+                <input id="phone_number" name="Phone Number " type="text" class="form-control" placeholder="Enter your phone number here...">
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-6">
+
+            <div class="form-group">
+              <label for="email_address">Email Address</label> 
+              <div class="input-group">
+                <div class="input-group-prepend">
+                  <div class="input-group-text">
+                    <i class="fa fa-envelope" aria-hidden="true"></i>
+                  </div>
+                </div> 
+                <input id="email_address" name="Email Address " type="text" class="form-control" placeholder="Enter your email address here..." required>
+              </div>
+            </div>
+
+          </div>
+        </div>    
+
         <div class="form-group">
-          <button name="submit" type="submit" class="btn btn-primary">Send</button>
+          <label for="message">Message</label> 
+          <div class="input-group">
+            </div> 
+            <textarea id="message" name="Message " type="text" rows="6" class="form-control" placeholder="Enter your enquiry here..." required></textarea>
+          </div>
+        
+      
+        <div class="form-group" align="center">
+          <button type="submit" class="btn btn-form">Send</button>
         </div> 
 
       </form>
