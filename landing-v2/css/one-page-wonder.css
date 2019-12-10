@@ -125,3 +125,23 @@ header.masthead .masthead-content .masthead-subheading {
 .btn-secondary:focus {
     box-shadow: 0 0 0 .2rem rgba(255, 106, 0, .5);
 }
+
+#contact {
+    background: linear-gradient(0deg, #823a96 0, #ec2578 100%);
+    border-radius: 25px;
+    padding: 15px;
+    margin-bottom: 15px;
+}
+
+.btn-form {
+    background: #ffeded;
+    font-weight: bold;
+}
+
+.form-control {
+    background: linear-gradient(180deg, rgba(199, 199, 199, 0.74) 0%, rgb(255, 237, 237) 20%)
+}
+
+label {
+    color: white;
+}
