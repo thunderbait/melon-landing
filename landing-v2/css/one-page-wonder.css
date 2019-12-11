@@ -127,7 +127,10 @@ header.masthead .masthead-content .masthead-subheading {
 }
 
 #contact {
-    background: linear-gradient(0deg, #823a96 0, #ec2578 100%);
+    b/*ackground: linear-gradient(0deg, #823a96 0, #ec2578 100%);
+    background: opacity: 0.5;*/
+    background: rgb(130,58,150);
+    background: linear-gradient(90deg, rgba(130,58,150,1) 0%, rgba(236,37,120,0.5438550420168067) 100%);
     border-radius: 25px;
     padding: 15px;
     margin-bottom: 15px;
