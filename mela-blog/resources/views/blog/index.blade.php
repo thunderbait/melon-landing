@@ -7,7 +7,7 @@
         <!-- Bootstrap CSS -->
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 
-        <title>Mela Insights</title>
+        <title>Blog - Mela Insights</title>
         
     </head>
     <body>
@@ -16,19 +16,19 @@
         <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark justify-content-center ">  
             <div>
                 <ul class="navbar-nav">
-                    
-                    <li class="nav-item active">
-                        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-                    </li>
                    
                     <li class="nav-item">
-                        <a class="nav-link" href="/blog">Blog</a>
+                        <a class="nav-link" href="/">Home</a>
+                    </li>
+
+                    <li class="nav-item active">
+                        <a class="nav-link" href="/blog">Blog<span class="sr-only">(current)</span></a>
                     </li>
                     
                     <li class="nav-item">
                         <a class="nav-link disabled" href="#">Mela Magic</a>
                     </li>
-
+                    
                 </ul>
             </div>
         </nav>        
