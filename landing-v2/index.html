@@ -8,7 +8,9 @@
   <meta name="description" content="">
   <meta name="author" content="">
 
+
   <title>Mela Insights</title>
+
 
   <!-- Bootstrap core CSS -->
   <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -18,9 +20,10 @@
   <link href="https://fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400,400i,700,700i,900,900i" rel="stylesheet">
   <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
 
-
   <!-- Custom styles for this template -->
-  <link href="css/one-page-wonder.css" rel="stylesheet">
+  <link href="css/one-page-wonder.min.css" rel="stylesheet">
+  <link href="css/styles.css" rel="stylesheet">
+
 </head>
 
 <body>
@@ -28,56 +31,150 @@
   <!-- Navigation -->
   <nav class="navbar navbar-dark navbar-custom fixed-top">
     <div class="container">
+
       <a class="navbar-brand" href="#">Mela Insights</a>
+
     </div>
   </nav>
 
-  <!-- Header -->
   <header class="masthead text-center text-white">
-    
     <div class="masthead-content">
       <div class="container">
+
         <h1 class="masthead-heading mb-0">Mela Insights</h1>
         <h2 class="masthead-subheading mb-0">Coming Soon</h2>
         <!-- <a href="#learnMore" class="btn btn-primary btn-xl rounded-pill mt-5">Learn More</a> -->
+
       </div>
     </div>
-    
     <div class="bg-circle-1 bg-circle"></div>
     <div class="bg-circle-2 bg-circle"></div>
     <div class="bg-circle-3 bg-circle"></div>
     <div class="bg-circle-4 bg-circle"></div>
   </header>
 
-  <!-- HubSpot Form -->
-
-  <div class="container">
-    <div class="row justify-content-center">
-      <div class="col-10">
-        <br>
-        <h2 style="text-align: center;"> Contact Us</h2>
-        <script charset="utf-8" type="text/javascript" src="https://js.hsforms.net/forms/shell.js"></script>
-        <script>
-          hbspt.forms.create({
-          portalId: "7006033",
-          formId: "4e913a47-27c6-4c0c-ab85-1b49bdd42424"
-        });
-        </script>
+  <!-- Lead Generation -->
+  <section>
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-lg-6 order-lg-2">
+          <div class="p-5">
+            <img class="img-fluid" src="img/lead-generation.png" alt="">
+          </div>
+        </div>
+        <div class="col-lg-6 order-lg-1">
+          <div class="p-5">
+            <h2 class="display-4">Lead Generation</h2>
+            <p>Search for International & National events to fill in the dates in your venues calendar.</p>
+          </div>
+        </div>
       </div>
     </div>
-  </div>  
+  </section>
+
+  <!-- Lead Prioritisation -->
+  <section>
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-lg-6">
+          <div class="p-5">
+            <img class="img-fluid" src="img/lead-prioritisation.png" alt="">
+          </div>
+        </div>
+        <div class="col-lg-6">
+          <div class="p-5">
+            <h2 class="display-4">Lead Prioritisation</h2>
+            <p>Organise events by the value they will bring and filter out all events that do not match your venue amenities.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Lead Nurturing -->
+  <section>
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-lg-6 order-lg-2">
+          <div class="p-5">
+            <img class="img-fluid" src="img/lead-nurturing.png" alt="">
+          </div>
+        </div>
+        <div class="col-lg-6 order-lg-1">
+          <div class="p-5">
+            <h2 class="display-4">Lead Nurturing</h2>
+            <p>Track your lead progress and see insights into the event and surrounding area that can support a winning bid.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Form -->
+  <section>
+    <div id="contact"> 
+      <h2>Get in Touch</h2>  
+        <p>
+          We want to get Mela out to you as soon as possible. So if you have a large venue or are an events 
+          organisation, please fill in the form below and we will be in touch.
+        </p>
+        
+        <hr noshade="noshade">
+          <div class='form-container'>
+            <form class='borderbox justify-content-center'>
+              <!-- For a half input, use "section", for two in a row wrap in "row" -->              
+              <div class='row'>
+                <div class="section">
+                  <label>Name (*)</label>
+                  <input class="borderbox" required>
+                </div>
+                <div class="job-section section">
+                  <label>Job Title</label>
+                  <input class="borderbox">
+                </div>
+              </div>
+              
+              <div class='row'>
+                <div class="section">
+                  <label>Organisation (*)</label>
+                  <input class="borderbox" required>
+                </div>
+                <div class="phone-section section">
+                  <label>Phone Number</label>
+                  <input class="borderbox">
+                </div>
+              </div>
+      
+              <div class="section">
+                <label>Email Address (*)</label>
+                <input class="borderbox" required>
+              </div>
+      
+              <label>Message (*)</label>
+              <textarea class="borderbox" rows="6" required></textarea>
+              
+              <div>
+                <button>Send</button>
+              </div>
+            
+            </form>
+            
+            <p>Fields with (*) are required.</p>
+      </div>
+    </div>
+  </section>
 
   <!-- Footer -->
   <footer class="py-5 bg-black">
     <div class="container">
       <p class="m-0 text-center text-white small">Copyright &copy; Your Website 2019</p>
     </div>
+    <!-- /.container -->
   </footer>
 
   <!-- Bootstrap core JavaScript -->
   <script src="vendor/jquery/jquery.min.js"></script>
   <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-  <script src="https://kit.fontawesome.com/71f0ee02fb.js" crossorigin="anonymous"></script>
 
 </body>
 
